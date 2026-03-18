@@ -1,0 +1,358 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+}
+
+
+
+#hero{
+    position: relative;
+    width: auto;
+    height: 100vh;
+    background-image: url(https://bootstrapmade.com/content/demo/Style/assets/img/bg/abstract-bg-1.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.bi-list {
+    position: static;
+    left:90%;
+    top: 20px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 1;
+}
+
+#hero > * {
+    position: relative;
+    z-index: 2;
+}
+
+#presentation1{
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    top: 22%;
+}
+
+#presentation h1{
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+
+#presentation p{
+    font-size: 1.2em;
+    width: 840px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+     
+}
+
+#stats {
+    display: flex;
+    gap: 50px;
+}
+
+#carre_bleu_home{
+    position: relative;
+    border-radius: 20px;
+    width: 482px;
+    height: 482px;
+    background: #3b81d6;
+
+   
+
+}
+.outline {
+    background:white;
+
+}
+
+#profile1 {
+    position: absolute;
+    right: 7%;
+    top: 18%;
+}
+
+#profile1 img{
+    position: absolute;
+    top: -20px;
+    right: 24px;
+    width: 482px;
+    height: 482px;
+    border-radius: 2%;
+}
+
+strong {
+    position: relative;
+    left: 45px;
+    font-size: 2em;
+    padding-bottom: 40px;
+    color: #065cc2;
+    font-weight: 500;
+}
+
+#hero button {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    top: 50px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 1em;
+
+    
+    
+    cursor: pointer;
+    margin-right: 15px;
+}
+#btn-work {
+    position: relative;
+    width: 170px;
+    height: 50px;
+    top: 50px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #3972ae;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 15px;
+}
+#btn-work:hover {
+    background-color: white;
+    border: 2px solid rgb(19, 71, 174);
+    color: rgb(19, 71, 174);
+
+}
+
+#btn-contact {
+    color: rgb(14, 27, 45);
+    background-color:white;
+    cursor: pointer;
+    border: 2px solid rgb(101, 152, 224);
+    
+}
+#btn-contact:hover {
+    background-color: #3972ae;;
+    color: white;
+}
+
+
+#icones {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 100px;
+    left: 5px;
+}
+
+i{
+    font-size: 1.3em;
+    color: #555;
+    background-color: white;
+    border-radius: 30px;
+    padding: 11px;
+    cursor: pointer;
+}
+i:hover {
+    background-color: #3972ae;
+    color: white;
+}
+
+
+#contenair{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.contenair1 {
+    position: relative;
+    grid-column: span 2;
+      
+      height: 70px;
+      padding: 20px;
+      
+    
+}
+
+.contenair1 p {
+    font-size: 1.2em;
+    position: relative;
+    top:-20px;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+.contenair2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+    
+}
+.contenair2 .span1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid rgb(105, 108, 199);
+   background-image: url("https://bootstrapmade.com/content/demo/Style/assets/img/profile/profile-square-1.webp");
+   background-size: cover;
+
+   
+}
+.contenair2 .span2{
+    position: relative;
+    top: 200px;
+}
+.contenair2  .span2 img{
+    font-size: 6rem;
+}
+.contenair2 p {
+    position: relative;
+    top:200px;
+    width: auto;
+    
+ 
+
+   
+}
+#space{
+    margin-left: 53px;
+}
+
+.contenair3{
+    position: relative;
+    height: 600px;
+   
+    
+}
+
+#contenair32{
+    position: relative;
+    top:40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#contenair32 aside {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    background: rgb(219, 221, 235);
+    width: 200px;
+    
+}
+#contenair32 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: aliceblue;
+    width: 80px;
+    background-color: #3972ae;
+    height: 80px;
+}
+#contenair33{
+    position: relative;
+    top: 50px;
+}
+#contenair33 aside {
+    display: flex;
+}
+#contenair33 aside p {
+    position: relative;
+    left: 40px;
+    top:10px;
+}
+#contenair33 span {
+    width: 2px;
+    height: 50px;
+    background-color: #3972ae;
+    margin-right: 3px;
+    
+}
+#contenair33 h2 {
+    position: relative;
+    left: 5px;
+}
+#contenair34 p{
+    position: relative;
+    top:65px;
+    background-color: rgba(143, 167, 201, 0.155);
+    align-items: center;
+    border: 1px solid rgba(192, 208, 248, 0.658);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+}
+
+
+#contenair35 {
+    position: relative;
+    top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+#contenair35 #btn1 {
+    background-color: #065cc2;
+    padding: 20px;
+    width: 200px;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#contenair35 #btn1:hover {
+    background-color:#065cc2;
+    position: relative;
+    top: -3px;
+    
+}
+#contenair35 #btn2 {
+    border: none;
+    padding: 20px;
+    border-radius: 45px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #f5f7fb;
+    border: 2px solid rgb(101, 152, 224);
+}
+#contenair35 #btn2:hover {
+    background-color: #065cc2;
+   
+    color: white;
+}
+
+
+
