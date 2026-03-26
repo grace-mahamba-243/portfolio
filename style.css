@@ -77,7 +77,7 @@ body {
     margin-top: 16px;
     max-width: 500px;
     color: #314862;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Quicksand", sans-serif;
 }
 .presentation_personnel h2 {
@@ -211,17 +211,20 @@ body {
     background-color: #4885CD;
     z-index: -1;
 }
-
+.competence {
+    border: #26508b33 1px solid;
+}
 .competence  h3 {
-    color: #065cc2;
-    font-size: 1.2rem;
+    color: #13447f;
+    font-size: 18px;
     margin: 16px 0 8px;
 }
 .competence p {
-    color: #314862;
+    color: #314862d7;
     font-size: 14px;
-    margin: 0;
+    margin-left: 20px;
     line-height: 1.6;
+    font-family: quicksand, sans-serif;
 }
 /* about & resume */
 
@@ -333,10 +336,10 @@ body {
 }
 #about_presentation h2 {
     color: #1f4f94;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     position: relative;
-    left: -20px;
+    left: -9px;
 }
 #about_presentation p {
     color: #314862;
@@ -384,7 +387,11 @@ body {
     color: #065cc2;
     font-weight: bold;
 }
-.parcours p { margin-left: 60px; }
+.parcours p { margin-left: 60px;
+    color: #314862;
+    font-size: 14px;
+
+}
 
 #coffee {
     margin-top: 20px;
@@ -396,6 +403,8 @@ body {
     width: 80%;
     height: 20px;
     border-radius: 20px;
+    color: #314862;
+    font-size: 14px;
 }
 #about_bouton {
     margin-top: 20px;
@@ -403,6 +412,7 @@ body {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    color: #065cc2;
 }
 #about_bouton button {
     background-color: #065cc2;
