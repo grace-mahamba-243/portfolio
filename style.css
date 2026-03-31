@@ -249,7 +249,7 @@ main {
 .hero-photo-badge {
     position: absolute;
     background-color: white;
-    padding: 15px 20px;
+    padding: 15px 10px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(49, 72, 98, 0.1);
     display: flex;
@@ -260,18 +260,20 @@ main {
 }
 
 .hero-photo-badge i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #065cc2;
+    
+
 }
 
 .hero-photo-badge span {
-    font-weight: 600;
+    font-weight: 700;
     color: #314862;
 }
 
 .badge-design {
     top: 20%;
-    left: -10%;
+    left: -5%;
 }
 
 .badge-creative {
@@ -281,5 +283,5 @@ main {
 
 .badge-dev {
     bottom: 15%;
-    left: -5%;
+    left: 0%;
 }
